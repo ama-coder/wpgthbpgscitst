@@ -4,7 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "build": "node_modules/.bin/webpack"
+    "build": "node_modules/.bin/webpack --output-path ./output/dist"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^7.0.0",
