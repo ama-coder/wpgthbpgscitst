@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ama-coder/wpgthbpgscitst/issues"
   },
-  "homepage": "https://github.com/ama-coder/wpgthbpgscitst#readme"
+  "homepage": "https://github.com/ama-coder/wpgthbpgscitst#readme",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  }
 }
