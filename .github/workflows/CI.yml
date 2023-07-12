@@ -22,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Debug
+        run: echo $(ls dist)
       - name: Download artifacts
         uses: actions/download-artifact@v2
         with:
@@ -31,5 +33,3 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
-      - name: Debug
-        run: echo $(ls dist)
